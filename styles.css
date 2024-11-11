@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #ffff;
     padding: 1rem 2rem;
 }
 
@@ -46,6 +46,15 @@ body {
 .menu a:hover {
     background-color: #575757;
     border-radius: 5px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu {
+    margin-left: 20px;
 }
 
 /* Hamburger menu for mobile */
