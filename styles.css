@@ -31,11 +31,11 @@ body {
     display: flex;
 }
 
-.nav-links li {
+.menu li {
     margin-left: 20px;
 }
 
-.nav-links a {
+.menu a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
@@ -43,7 +43,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.nav-links a:hover {
+.menu a:hover {
     background-color: #575757;
     border-radius: 5px;
 }
@@ -68,11 +68,11 @@ body {
         background-color: #333;
     }
 
-    .nav-links.active {
+    .menu.active {
         display: block;
     }
 
-    .nav-links li {
+    .menu li {
         margin: 20px 0;
     }
 
